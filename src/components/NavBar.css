@@ -1,0 +1,40 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10%;
+
+    .links {
+        .lista-links {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .item-links {
+                list-style: none;
+                margin: 5px;
+                cursor: pointer;
+
+                &:hover {
+                    color: rgb(4, 250, 25);
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 470px) {
+    .header {
+        .titulo {
+            font-size: 15px;
+        }
+
+        .links {
+            .lista-links {
+                .item-links {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}

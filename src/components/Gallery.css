@@ -1,0 +1,22 @@
+.layout {
+    display: grid;
+    width: 50%;
+    margin: 0 auto;
+
+    .fileira {
+        .img {
+            width: 20%;
+            height: 100%;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .layout {
+        width: 100%;
+
+        .titulo {
+            font-size: 30px;
+        }
+    }
+}

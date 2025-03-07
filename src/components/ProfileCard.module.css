@@ -1,0 +1,33 @@
+.main {
+    display: flex;
+    justify-content: center;
+
+    .card {
+        border: 3px solid #FFF;
+        margin: 20px;
+        border-radius: 7px;
+        width: 30%;
+    
+        .cardHead {
+    
+            .img {
+                width: 100%;
+                border-bottom: 3px solid #FFF;
+            }
+        }
+    
+        .cardBody {
+            padding: 10px;
+            text-align: left;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .main {
+        .card {
+            width: 100%;
+        }
+    }
+}
+
