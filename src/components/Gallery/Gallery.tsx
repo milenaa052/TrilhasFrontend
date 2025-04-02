@@ -1,4 +1,4 @@
-import "../components/Gallery.css";
+import "./Gallery.css";
 
 const Gallery = () => {
     return (

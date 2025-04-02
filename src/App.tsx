@@ -1,18 +1,21 @@
+import { BrowserRouter as Router, Routes, Route } from "react-router"
 import './App.css'
-import Button from './components/Button'
-import Formulario from './components/Formulario'
-import Gallery from './components/Gallery'
-import NavBar from './components/NavBar'
-import ProfileCard from './components/ProfileCard'
+import ButtonNext1 from "./components/ButtonNext1/ButtonNext1"
+import NavBar from './components/Navbar/NavBar'
+import Contador from "./components/Contador/Contador"
 
 function App() {
   return (
     <>
-      <NavBar />
-      <Button />
-      <ProfileCard />
-      <Gallery />
-      <Formulario />
+      <Router>
+        <Routes>
+            <Route path="/" element={<ButtonNext1 />}></Route>
+
+            <Route path="/trilha-1" element={<NavBar /> }></Route>
+
+            <Route path="/trilha-2" element={<Contador valorInicial={5} />}></Route>
+        </Routes>
+      </Router>
     </>
   )
 }

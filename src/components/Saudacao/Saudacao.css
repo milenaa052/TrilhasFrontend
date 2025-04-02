@@ -1,0 +1,14 @@
+.saudacao {
+    text-align: center;
+    margin: 20px;
+
+    .input {
+        padding: 5px;
+        margin: 0px 10px;
+    }
+
+    .atualizar {
+        margin: 5px;
+        padding: 8px 15px;
+    }
+}

@@ -1,0 +1,11 @@
+.contador {
+    text-align: center;
+    margin: 20px;
+
+    .botoes {
+        .decrementar, .incrementar {
+            margin: 5px;
+            padding: 8px 15px;
+        }
+    }
+}
