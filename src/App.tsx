@@ -13,6 +13,7 @@ import HomeReservas from "./pages/Reservas/HomeReservas"
 import Rooms from "./pages/Reservas/Rooms"
 import RoomDetails from "./pages/Reservas/RoomDetails"
 import BookingSuccess from "./pages/Reservas/BookingSucess"
+import Users from "./pages/Users"
 
 function Layout() {
   const location = useLocation();
@@ -39,6 +40,8 @@ function Layout() {
         <Route path="/rooms" element={<Rooms />} />
         <Route path="/rooms/:id" element={<RoomDetails />} />
         <Route path="/booking-success" element={<BookingSuccess />} />
+
+        <Route path="trilha-4" element={<Users />} />
       </Routes>
     </>
   )
