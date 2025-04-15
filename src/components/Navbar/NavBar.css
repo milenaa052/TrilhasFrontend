@@ -15,8 +15,12 @@
                 margin: 5px;
                 cursor: pointer;
 
-                &:hover {
-                    color: rgb(4, 250, 25);
+                a {
+                    color: #fff;
+
+                    &:hover {
+                        color: rgb(4, 250, 25);
+                    }
                 }
             }
         }

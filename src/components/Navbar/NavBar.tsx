@@ -1,8 +1,3 @@
-import Button from "../Button/Button";
-import ButtonNext2 from "../ButtonNext2/ButtonNext2";
-import Formulario from "../Form/Formulario";
-import Gallery from "../Gallery/Gallery";
-import ProfileCard from "../Profile/ProfileCard";
 import "./NavBar.css";
 
 const NavBar = () => {
@@ -13,19 +8,30 @@ const NavBar = () => {
 
                 <div className="links">
                     <ul className="lista-links">
-                        <li className="item-links">Home</li>
-                        <li className="item-links">Sobre</li>
-                        <li className="item-links">Projetos</li>
-                        <li className="item-links">Contato</li>
+                        <li className="item-links">
+                            <a href="/home">
+                                Home
+                            </a>
+                        </li>
+                        <li className="item-links">
+                            <a href="/sobre">
+                                Sobre
+                            </a>
+                        </li>
+                        <li className="item-links">
+                            <a href="/projeto">
+                                Projeto
+                            </a>
+                        </li>
+                        <li className="item-links">
+                            <a href="/contato">
+                                Contato
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </header>
 
-            <Button />
-            <ProfileCard />
-            <Gallery />
-            <Formulario />
-            <ButtonNext2 />
         </>
     );
 }
