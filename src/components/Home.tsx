@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router';
+import ButtonNextReserve from './ButtonNextReserve/ButtonNextReserve';
 
 
 const Home = () => {
@@ -35,6 +36,9 @@ const Home = () => {
 
         <br />
         <button onClick={pagSobre} style={{ margin: "50px" }}>Ir para a página sobre</button>
+
+        <br />
+        <ButtonNextReserve /> 
       </form>
     </div>
   );

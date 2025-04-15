@@ -3,7 +3,7 @@ import "./Contador.css"
 import Saudacao from "../Saudacao/Saudacao";
 import ListaTarefas from "../ListaTarefas/ListaTarefas";
 import ToggleVisibilidade from "../ToggleVisibilidade/ToggleVisibilidade";
-import ButtonNext3 from "../ButtonNext3/ButtonNext2";
+import ButtonNext3 from "../ButtonNext3/ButtonNext3";
 
 const Contador = ({ valorInicial = 0 }) => {
   const [contador, setContador] = useState(valorInicial);
